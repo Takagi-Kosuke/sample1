@@ -1,78 +1,70 @@
 <!doctype html>
 <html>
+
 <head>
 <meta charset="utf-8">
-<title>Profile</title>
-<meta name="Description" content="テキストテキストテキストテキスト">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PHOTO BOOK</title>
+<meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="icon" href="img/favicon.ico">
 <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet">
 </head>
-	
-<body>
-	<!-- ヘッダー -->
- <header id="header" class="wrapper">
-	 <h1 class="site-title">
-	 <a href="index.html"><img src="logo.svg" alt="Profile"></a>
-	 </h1>
-	 <nav>
-		 <ul>
-		 <li><a href="#about">About</a></li>
-		 <li><a href="#bicycle">bicycle</a></li>
-		 </ul>
-	 </nav>
-	 
- </header>
 
- <main>
-	 <!-- メインビジュアル-->
+<body>
+ <div class="container">
+   <header id="header">
+	   <h1 class="site-title"><a href="index.hmtl"><img src="img/img/logo.svg" alt="logo"></a></h1>
+   </header>
+   
+   <main>
 	 <div id="mainvisual">
-		 <img src="mainvisual.jpg" alt="テキストテキストテキストテキスト">
+		 <img src="img/img/mainvisual.jpg" alt="Main Visual">
 	 </div>
+   
 	 
-	 <!-- About セクション-->
-	 <section id="about" class="wrapper">
-		 <h2 class="section-title">About</h2>
-		 <div class="content">
-			 <img src="about.jpg" alt="テキストテキストテキスト">
-			 <div class="text">
-			  <h3 class="content-title">Bycicle</h3>
-			  <p>自転車を身近は浸透させたい思いから活動を開始。<br>普段使いしやすい自転車の紹介から、自転車で生活しやすい街の共有まで。<br>自転車との生活を豊かにする、そんなサイトです。</p>
+     <section id="index">
+		 <div class="inner">
+			 <h2 class="section-title">INDEX</h2>
+			 <ol class="index-list">
+			 　<li>風景の写真</li>
+			 　<li>建造物の写真</li>
+			　 <li>動物の写真</li>
+			　 <li>人物の写真</li>
+			 </ol>
+		 </div>
+     </section>
+
+     <section id="detail">
+		 <div class="inner">
+			 <h2 class="section-title">DETAIL</h2>
+			 <div class="content">
+				 <img class="img" src="img/img/detail.jpg" alt="Detail">
+				 <div class="text">
+				 <p class="title">Title</p>
+				 
+				 <dl>
+				 <dt>著者</dt>
+				 <dd>田中 一郎</dd>
+				 <dt>出版社</dt>
+				 <dd>aaaa社</dd>
+				 <dt>発行年</dt>
+				 <dd>2025年</dd>
+				 </dl>
+				 <p>本写真集はとある島を探索しながら撮影した写真を中心に
+					2024年に旅した風景を集めたものです。
+				 </p>
+				 <a class="link" href="#" target="_blank" rel="noopener nonrefrrer">オンラインストアで見る</a>
+			    </div>
 			 </div>
 		 </div>
-	 </section>
+     </section>
+
+   </main>
 	 
-	 <!-- bycycleセクション-->
-	 <section id="bicycle" class="wrapper">
-		<h2 class="section-title">Bicycle</h2>
-		 <ul>
-			 <li>
-				 <img src="bicycle1.jpg" alt="テキストテキストテキスト">
-				 <h3 class="content-title">移動手段として</h3>
-				 <p>エコでパワフル、保管も省スペースで可能。一番身近な移動手段です。</p>
-			 </li>
-			 
-			 <li>
-				 <img src="bicycle2.jpg" alt="テキストテキストテキスト">
-				 <h3 class="content-title">趣味として</h3>
-				 <p>天気がいい日にサイクリングするのはとても気持ちがよく、趣味として最適です。</p>
-			 </li>
-			
-			 <li>
-				 <img src="bicycle3.jpg" alt="テキストテキストテキスト">
-				 <h3 class="content-title">鑑賞用として</h3>
-				 <p>走るために精錬されたその姿はまさしく芸術品です。</p>
-		
-			 </li>
-		 </ul>
-	 </section>
- </main>
-
- <!--フッター-->
- <footer id="footer">
-	 <p>&copy; 2020 Profile</p>
- </footer>
-
+   <footer id="footer">
+   </footer> 
+ </div>
+	
 </body>
 </html>
